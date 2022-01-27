@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_1부터N까지의M의배
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_자연수의 합", "02_자연수의 합\02_자연수의 합.vcxproj", "{6C39C499-0171-4B94-8CAF-96B7FFF8703F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_숫자만 추출(문자열 컨트롤)", "06_숫자만 추출(문자열 컨트롤)\06_숫자만 추출(문자열 컨트롤).vcxproj", "{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6C39C499-0171-4B94-8CAF-96B7FFF8703F}.Release|x64.Build.0 = Release|x64
 		{6C39C499-0171-4B94-8CAF-96B7FFF8703F}.Release|x86.ActiveCfg = Release|Win32
 		{6C39C499-0171-4B94-8CAF-96B7FFF8703F}.Release|x86.Build.0 = Release|Win32
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Debug|x64.ActiveCfg = Debug|x64
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Debug|x64.Build.0 = Debug|x64
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Debug|x86.ActiveCfg = Debug|Win32
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Debug|x86.Build.0 = Debug|Win32
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Release|x64.ActiveCfg = Release|x64
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Release|x64.Build.0 = Release|x64
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Release|x86.ActiveCfg = Release|Win32
+		{A93EB980-A4CE-4B67-AE7E-04BD11FD4ABF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
