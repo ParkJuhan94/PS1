@@ -7,7 +7,7 @@
 int main() {
 	int i, n, cnt = 1, maxLen = 0, pre, now, tempi;
 
-	scanf("%d", &n);	
+	scanf("%d", &n);
 	scanf("%d", &pre);
 
 	for (i = 2; i <= n; i++) {
@@ -17,16 +17,12 @@ int main() {
 
 			if (cnt > maxLen) {
 				maxLen = cnt;
-			}			
+			}
 		}
 		else {
 			cnt = 1;
 		}
-
 		pre = now;
-
-		
 	}
-
 	printf("%d", maxLen);
 }
