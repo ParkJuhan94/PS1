@@ -1,1 +1,3 @@
-﻿  23_연속 부분 증가 수열.vcxproj -> C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\23_연속 부분 증가 수열.exe
+﻿  23_연속 부분 증가 수열.cpp
+C:\Users\1004s\OneDrive\Desktop\AA\AA\23_연속 부분 증가 수열\23_연속 부분 증가 수열.cpp(31,43): warning C4101: 'tempi' :참조되지 않은 지역 변수입니다.
+  23_연속 부분 증가 수열.vcxproj -> C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\23_연속 부분 증가 수열.exe
