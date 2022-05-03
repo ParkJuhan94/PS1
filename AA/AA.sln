@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_탄화수소 질량", "3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_3의 개수는 (small 구글 인터뷰)", "30_3의 개수는 (small 구글 인터뷰)\30_3의 개수는 (small 구글 인터뷰).vcxproj", "{8590DD01-0F89-4AC7-A372-309788ECA191}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_선택정렬", "32_선택정렬\32_선택정렬.vcxproj", "{851066FC-F9D0-4C77-B0DF-66925AA80A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{8590DD01-0F89-4AC7-A372-309788ECA191}.Release|x64.Build.0 = Release|x64
 		{8590DD01-0F89-4AC7-A372-309788ECA191}.Release|x86.ActiveCfg = Release|Win32
 		{8590DD01-0F89-4AC7-A372-309788ECA191}.Release|x86.Build.0 = Release|Win32
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Debug|x64.ActiveCfg = Debug|x64
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Debug|x64.Build.0 = Debug|x64
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Debug|x86.Build.0 = Debug|Win32
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Release|x64.ActiveCfg = Release|x64
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Release|x64.Build.0 = Release|x64
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Release|x86.ActiveCfg = Release|Win32
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -378,6 +388,7 @@ Global
 		{4CEFD367-7214-47AF-B9B9-F8A3437DB68A} = {E3360E2F-73E5-4C00-AE20-9A80B03D992C}
 		{7B6300E9-A74B-46BE-A2A8-660AA044AB8C} = {E3360E2F-73E5-4C00-AE20-9A80B03D992C}
 		{8590DD01-0F89-4AC7-A372-309788ECA191} = {E3360E2F-73E5-4C00-AE20-9A80B03D992C}
+		{851066FC-F9D0-4C77-B0DF-66925AA80A8D} = {A98D03FE-72C2-4554-98B7-EF5723705BA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13424833-8CAD-4686-99A5-255CF560F3B0}

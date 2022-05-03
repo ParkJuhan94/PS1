@@ -12,6 +12,7 @@ int main() {
 		left = n / (k * 10);
 		right = n % k;
 		cur = (n / k) % 10;
+		//	cur과 3의 대소비교를 통해서 3가지 케이스를 나눈다
 		if (3 < cur) {
 			res = res + ((left + 1) * k);
 		}
