@@ -6,6 +6,7 @@ using namespace std;
 
 int n, a[11], total = 0;
 bool flag = false;
+
 void DFS(int L, int sum) {
 	if (sum > (total / 2)) return;
 	if (flag == true) return;
@@ -27,6 +28,7 @@ int main() {
 		scanf("%d", &a[i]);
 		total += a[i];
 	}
+
 	DFS(1, 0);
 	if (flag) printf("YES\n");
 	else printf("NO\n");

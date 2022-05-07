@@ -11,13 +11,16 @@ int main() {
 	int n, m, a, b, x, i;
 	vector<int> map[30];
 	queue<int> Q;
+
 	scanf("%d %d", &n, &m);
 	for (i = 1; i <= m; i++) {
 		scanf("%d %d", &a, &b);
 		map[a].push_back(b);
 	}
+
 	Q.push(1);
 	ch[1] = 1;
+
 	while (!Q.empty()) {
 		x = Q.front();
 		Q.pop();
@@ -29,6 +32,7 @@ int main() {
 			}
 		}
 	}
+
 	for (i = 2; i <= n; i++) {
 		printf("%d : %d\n", i, dis[i]);
 	}

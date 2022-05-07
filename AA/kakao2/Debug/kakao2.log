@@ -1,0 +1,4 @@
+﻿  kakao2.cpp
+C:\Users\1004s\OneDrive\Desktop\AA\AA\kakao2\kakao2.cpp(17,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\kakao2\kakao2.cpp(14,38): warning C4101: 'cs' :참조되지 않은 지역 변수입니다.
+  kakao2.vcxproj -> C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\kakao2.exe

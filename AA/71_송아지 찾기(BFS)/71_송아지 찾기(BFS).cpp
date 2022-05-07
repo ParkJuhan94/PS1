@@ -12,13 +12,17 @@ int main() {
 	int s, e, x, pos, i;
 	queue<int> Q;
 	scanf("%d %d", &s, &e);
+
 	ch[s] = 1;
 	Q.push(s);
+
 	while (!Q.empty()) {
 		x = Q.front();
 		Q.pop();
+
 		for (i = 0; i < 3; i++) {
 			pos = x + d[i];
+
 			if (pos <= 0 || pos > 10000) continue;
 			if (pos == e) {
 				printf("%d\n", ch[x]);
@@ -30,6 +34,7 @@ int main() {
 			}
 		}
 	}
+
 	return 0;
 }
 

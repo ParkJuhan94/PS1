@@ -21,6 +21,8 @@ int main() {
 	}
 	sort(b.begin(), b.end());
 
+
+
 	//	작은 원소를 가진 배열의 포인터를 증가시킨다. 둘 다 오름차순이니까.
 	while (p1 < n && p2 < m) {
 		if (a[p1] == b[p2]) {

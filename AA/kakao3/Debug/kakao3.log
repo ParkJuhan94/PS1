@@ -1,0 +1,6 @@
+﻿  kakao3.cpp
+C:\Users\1004s\OneDrive\Desktop\AA\AA\kakao3\kakao3.cpp(22,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\kakao3\kakao3.cpp(37,19): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\kakao3\kakao3.cpp(34,12): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\kakao3.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
