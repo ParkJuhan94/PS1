@@ -5,6 +5,7 @@
 using namespace std;
 
 int a[101], b[101], c[300];
+
 int main() {
 	//freopen("input.txt", "rt", stdin);
 	int n, m, i, p1 = 1, p2 = 1, p3 = 1;

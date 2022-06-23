@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+//	투포인트 쓰려면 반드시 두 배열이 정렬돼있어야 한다.
 int main() {
 	//freopen("input.txt", "rt", stdin);
 	int n, m, i, p1 = 0, p2 = 0, p3 = 0;
@@ -33,7 +34,7 @@ int main() {
 			p1++;
 		}
 		else p2++;
-	}
+	} 
 	for (i = 0; i < p3; i++) {
 		printf("%d ", c[i]);
 	}

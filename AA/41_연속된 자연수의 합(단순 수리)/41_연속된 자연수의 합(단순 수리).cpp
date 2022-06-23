@@ -4,6 +4,34 @@
 #include <vector>
 using namespace std; 
 
+// 내 코드
+int main() {
+	int i = 2, j, sum = 0, a, n;
+
+	scanf("%d", &n);
+	while (true) {
+		sum = 0;
+		for (j = 1; j <= i; j++) {
+			sum += j;
+		}
+
+		if (sum > n) break;
+
+		if ((n - sum) % i == 0) {
+			a = (n - sum) / i;
+
+			for (j = 1; j < i; j++) {
+				printf("%d + ", a + j);
+			}
+			printf("%d = %d \n", a + j, n);
+		}
+		i++;
+	}
+}
+
+/*
+//	강사님 코드
+
 int main() {
 	//freopen("input.txt", "rt", stdin);
 	//freopen("output.txt", "wt", stdout);
@@ -25,3 +53,6 @@ int main() {
 	printf("%d\n", cnt);
 	return 0;
 }
+*/
+
+
