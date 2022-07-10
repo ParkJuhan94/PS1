@@ -56,7 +56,7 @@ void DFS(int L, int sum) {
 }
 
 int main() {
-	freopen("input.txt", "rt", stdin);
+	//freopen("input.txt", "rt", stdin);
 	int i;
 	scanf("%d %d", &n, &m);
 	for (i = 1; i <= n; i++) {
