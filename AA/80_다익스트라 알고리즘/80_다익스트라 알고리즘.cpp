@@ -6,13 +6,15 @@
 using namespace std;
 
 struct Edge {
-	int vex;
-	int dis;
+	int vex;	//	간선의 도착 노드
+	int dis;	//	간선의 길이
+
 	Edge(int a, int b) {
 		vex = a;
 		dis = b;
 	}
-	//	이 Edge를 priority_queue에 넣으면 최소힙이 됨(최대힙에서 부호가 반대이니까)
+
+	//	이 Edge를 priority_queue에 넣으면 최소힙이 됨(최대힙(default)에서 부호가 반대이니까)
 	bool operator<(const Edge& b)const {
 		return dis > b.dis;
 	}

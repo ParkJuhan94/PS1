@@ -1,4 +1,2 @@
 ﻿  78_원더랜드 Kruskal MST(최소스패닝트리, Union Find 활용).cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\78_원더랜드 Kruskal MST(최소스패닝트리, Union Find 활용).exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: "link.exe"이(가) 종료되었습니다(코드: 1120).
+  78_원더랜드 Kruskal MST(최소스패닝트리, Union Find 활용).vcxproj -> C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\78_원더랜드 Kruskal MST(최소스패닝트리, Union Find 활용).exe
