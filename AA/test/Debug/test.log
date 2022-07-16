@@ -1,2 +1,6 @@
 ﻿  test.cpp
+C:\Users\1004s\OneDrive\Desktop\AA\AA\test\test.cpp(21,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\test\test.cpp(28,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\test\test.cpp(59,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\1004s\OneDrive\Desktop\AA\AA\test\test.cpp(60,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   test.vcxproj -> C:\Users\1004s\OneDrive\Desktop\AA\AA\Debug\test.exe
